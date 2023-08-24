@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .conteudo {
+            margin: auto;
+            background: #dcdcdc;
+            height: 100vh;
+            display: flex;
+
+            flex-direction: row;
+            flex-wrap: nowrap;
+
+            /* justify-content: flex-start; 
+            contéudos alinhados no canto esquerdo */
+
+            /* justify-content: flex-end;
+             contéudos alinhados no canto direito */
+
+            /* justify-content: space-between;
+             espaçamento entre os contéudos */
+
+             /* justify-content: space-around; 
+             espaçamento entre conteúdos de forma destruibuida */
+
+             /* align-items: stretch;
+             esticar  os conteúdos (é preciso não ter uma altura definida para funcionar) */
+
+             /* align-items: baseline;
+             base line faz todos os conteúdos se alinharem de acordo com a linha de cima */
+
+             /* flex-grow: 1;
+             crenscer um item */
+             
+             /* flex-shrink: 1;
+              diminuir um item */
+
+            }
+            .item {
+                height: 200px;
+                width: 200px;
+                background: white;
+                border: 1px solid black;
+                margin: 10px;
+            }
+            #item1 {
+                flex-shrink: 6;
+            }
+    </style>
+</head>
+<body>
+    <div class="conteudo">
+        <div class="item" id="item1">01</div>
+        <div class="item">02</div>
+        <div class="item">03</div>
+        <div class="item">04</div>
+    </div>
+    
+</body>
+</html>
